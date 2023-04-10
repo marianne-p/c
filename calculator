@@ -1,0 +1,26 @@
+// Program that adds, substracts, multiplies or divides two numbers.
+#include <stdio.h>
+#include <stdlio.h>
+
+int main() {
+    
+    printf("Please choose what do you want to do by typing in a number: \n 1. Add (+) \n 2. Substract (-) \n 3. Multiply (*) \n 4. Divide (/) \n");
+    scanf("%d", &option);
+    printf("Type in two numbers divided with space\n");
+    scanf("%d %d", &a &b);
+    float reslt;
+    if (option=1) {
+        reslt=a+b;
+    }
+    if (option=2) {
+        reslt=a-b;
+    }
+    if (option=3) {
+        reslt=a*b;
+    }
+    else {
+        reslt=a/b;
+    }
+    printf("Here is your result: %f\n", reslt);
+    return 0;
+}
